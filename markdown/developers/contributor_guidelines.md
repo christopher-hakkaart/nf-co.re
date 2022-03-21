@@ -17,21 +17,20 @@ If you are new to nf-core and nextflow, here are some great resources that will 
 
 ## Basic rules for contributions
 
-Contributions to an exisitng pipeline follow the same rules and patterns as [adding a new pipeline](https://nf-co.re/developers/adding_pipelines). However, to make sure everyone has an opportunity to contribute there is a simple process to follow:
-1. Ask in the Slack channel for the specific pipeline whether there is an open GitHub issue on the respective pipeline's issue tracker for the feature you're planning to add, fix, or develop.
+Contributions to an exisitng pipeline follow the same rules and patterns as [adding a new pipeline](https://nf-co.re/developers/adding_pipelines). However, as there are alrady developers working on the pipeline, there is a simple process to follow:
+1. Ask in the Slack channel for the specific pipeline whether there is an open issue on the respective pipeline's issue tracker for the feature you're planning to add, fix, or develop.
 2. If no GitHub issue exists, create a new issue describing the purpose and the ideas you have, and wait for someone to comment/discuss the issue.
+    - To keep the process as simple as possible, please collect all of the information for your proposal in a single issue rather than write to multiple Slack channels.
 3. If everyone is happy or there is some consensus in the community, start implementing the feature in your fork of the respective pipeline (see below).
 
-To keep the process as simple as possible, please do not write to multiple channels in the Slack community, rather collect all of the information for your proposal in a single issue.
-
 As all nf-core pipelines use GitHub as their code repository, and git as their version control, making a contribution to any nf-core pipeline will generally follow the same pattern:
-1. [Fork](#fork)
-2. [Clone](#clone)
-3. [Branch](#branch)
-4. [Edit](#edit)
-5. [Commit](#commit)
-6. [Push](#push)
-7. [Create a pull request](#create-a-pull-request)
+1. [Fork](#fork) the pipeline GitHub repository.
+2. [Clone](#clone) the forked repository to your local system.
+3. Create a feature [branch](#branch) in which you will make your changes.
+4. Make your [edit](#edit) to the new branch.
+5. [Commit](#commit) your changes to the branch.
+6. [Push](#push) the branch to github.
+7. [Create a pull request](#create-a-pull-request) from the new branch to the original repository.
 
 ### Fork
 

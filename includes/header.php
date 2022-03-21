@@ -170,6 +170,7 @@ if (isset($subtitle) && strlen($subtitle) > 0) {
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/developers/guidelines">Guidelines</a>
               <a class="dropdown-item" href="/developers/adding_pipelines">Adding a new pipeline</a>
+              <a class="dropdown-item" href="/developers/contributor_guidelines">Contribute to a pipeline</a>
               <a class="dropdown-item" href="/developers/modules">Modules</a>
               <a class="dropdown-item" href="/developers/release_checklist">Release checklist</a>
               <a class="dropdown-item" href="/tools/docs/latest/pipeline_lint_tests/">Lint error codes</a>
